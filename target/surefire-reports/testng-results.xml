@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[##########-------Login application-------##########]]>
+    </line>
+    <line>
+      <![CDATA[##########-------Login Successfully,----------############]]>
+    </line>
+  </reporter-output>
+  <suite name="TrackX.truelocate1 Suite" duration-ms="31554" started-at="2017-11-09T08:51:12Z" finished-at="2017-11-09T08:51:44Z">
+    <groups>
+    </groups>
+    <test name="TrackX.truelocate1 test" duration-ms="31554" started-at="2017-11-09T08:51:12Z" finished-at="2017-11-09T08:51:44Z">
+      <class name="com.trackx.truelocate.flow.LoginFLow">
+        <test-method status="PASS" signature="excelCreation()[pri:0, instance:com.trackx.truelocate.flow.LoginFLow@2de23121]" name="excelCreation" is-config="true" duration-ms="80" started-at="2017-11-09T14:21:12Z" finished-at="2017-11-09T14:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excelCreation -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.trackx.truelocate.flow.LoginFLow@2de23121]" name="setUp" is-config="true" duration-ms="12999" started-at="2017-11-09T14:21:12Z" finished-at="2017-11-09T14:21:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginFlow(java.lang.String, java.lang.String)[pri:0, instance:com.trackx.truelocate.flow.LoginFLow@2de23121]" name="LoginFlow" duration-ms="11147" started-at="2017-11-09T14:21:26Z" data-provider="getData" finished-at="2017-11-09T14:21:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rb.admin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[##########-------Login application-------##########]]>
+            </line>
+            <line>
+              <![CDATA[##########-------Login Successfully,----------############]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginFlow -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.trackx.truelocate.flow.LoginFLow@2de23121]" name="quitDriver" is-config="true" duration-ms="7225" started-at="2017-11-09T14:21:37Z" finished-at="2017-11-09T14:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.trackx.truelocate.flow.LoginFLow@2de23121]" name="suiteTearDown" is-config="true" duration-ms="131" started-at="2017-11-09T14:21:44Z" finished-at="2017-11-09T14:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.trackx.truelocate.flow.LoginFLow -->
+    </test> <!-- TrackX.truelocate1 test -->
+  </suite> <!-- TrackX.truelocate1 Suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TrackX.truelocate Suite]">
+  <test name="TrackX.truelocate test(failed)">
+    <parameter name="browserType" value="firefox"/>
+    <classes>
+      <class name="com.trackx.truelocate.flow.LoginFLow">
+        <methods>
+          <include name="setUp"/>
+          <include name="suiteTearDown"/>
+          <include name="LoginFlow"/>
+          <include name="excelCreation"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.trackx.truelocate.flow.LoginFLow -->
+    </classes>
+  </test> <!-- TrackX.truelocate test(failed) -->
+</suite> <!-- Failed suite [TrackX.truelocate Suite] -->

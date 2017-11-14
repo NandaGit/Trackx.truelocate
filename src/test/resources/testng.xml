@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TrackX.truelocate Suite">
+
+  <test name="TrackX.truelocate test"> 
+  
+  <classes>
+   <class name="com.trackx.truelocate.flow.LoginFLow"/>  
+  <!-- <class name="com.trackx.truelocate.flow.SiteCreateFlow"/>   
+   <class name="com.fgts.royalb.flow.LocationCreateFlow"/>
+ <class name="com.fgts.royalb.flow.FacilityCreateFlow"/> 
+   <class name="com.trackx.truelocate.flow.SiteEditFlow"/>   -->
+    </classes>
+    </test>
+</suite>  
+
+
